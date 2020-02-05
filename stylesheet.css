@@ -1,0 +1,254 @@
+.box-flex{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 775px;
+}
+.lesson-cover{
+    background-color: bisque;
+}
+.box-flex:after,
+.box-flex:before {
+    font-size: 0.5rem;
+    padding: 1em 0;
+}
+
+.box{
+    padding: 5px;
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    background-color: #66b3ff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h3, p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.box-title{
+    color: #ffff80;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cover {
+    padding: 10px;
+    justify-content: center;
+    height: 775px;
+    background-color: bisque;
+}
+
+.starting-text{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+.title-cover{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 50px;
+    color: #4d79ff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{
+    width: 20%;
+}
+
+.slide2-cover{
+    background-color: bisque;
+    height: 775px;
+    padding: 10px;
+}
+
+.title-slide2 {
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4d79ff;
+}
+
+.description {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 10%;
+}
+
+.slide3-cover{
+    height: 775px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.title-slide3 {
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color:#4d79ff
+}
+
+.first-excercise{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin-top: 5%;
+}
+
+.repl {
+    width: 700px;
+    margin: auto;
+}
+
+.slide4-cover {
+    height: 775px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.for-loop-desc {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.slide5-cover {
+    background-color: bisque;
+    height: 775px;
+    padding: 10px;
+}
+
+.slide6-cover {
+    background-color: bisque;
+    height: 775px;
+    padding: 10px;
+}
+
+.slide7-cover {
+    background-color: bisque;
+    height: 775px;
+    padding: 10px;
+}
+
+.slide8-cover {
+    background-color: bisque;
+    height: 775px;
+    padding: 10px;
+}
+
+.loop-statement {
+    color: red;
+}
+
+.slides-container{
+    margin-top: 2%;
+}
+
+.text-box{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.conclusion{
+    font-size: 30px;
+}
+
+.imagination {
+    margin-left: 30%;
+    width: 400px;
+}
+
+.loop-iterations {
+    width: 700px;
+}
+
+.second-flex{
+    display: flex;
+}
+.underbox{
+    color: red;
+}
+
+.solution {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

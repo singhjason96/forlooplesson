@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>For Loops in JavaScript</title>
+<link rel="stylesheet" href="stylesheet.css" />
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<body>
+    <div class="slides-container">
+
+        <div class="slides">
+            <div class="lesson-cover">
+                    <h1 class="title">Lesson Plan</h1>
+                    <div class="box-flex">
+                        <div class="box">
+                            <h1 class="box-title">Lesson Overview</h1>
+                            <p>We start with learning the importatnce of For Loops and what they do.
+                            We then reflect on how we would do simple tasks such as counting without For Loops. 
+                            Students will then learn about the syntax of For Loops and the three statements that make them.
+                        </p>
+                        </div>
+                        <div class="box">
+                            <h1 class='box-title'>Agenda</h1>
+                            <h3>What We're Doing!!</h2>
+                            <p>- Life Without Loops</p>
+                            <p>- Life With Loops</p>
+                            <p>- Understanding the Syntax</p>
+                            <p>- Looping Through Data Sets</p>
+                        </div>
+                        <div></div>
+                        <div class="box">
+                            <h1 class="box-title">Learning Objectives</h1>
+                            <h3>Students will be able to:</h2>
+                            <p>- Understand the importance of Loops</p>
+                            <p>- Use Loops to solve algorithms</p>
+                        </div>
+                        <div class="box">
+                            <h1 class="box-title">Students Achieved Objectives</h1>
+                            <h3>Students should show that they met today's learning objectives by:</h3>
+                            <p>- Students are able to explain a For Loop</p>
+                            <p>- Students will have created an algorithm using a for loop to count and sift through a data set.</p>
+                        </div>
+                    </div>
+            </div>
+           
+        </div>
+
+        <div class="slides">
+            <div class="cover">
+                    <h1 class="title-cover">Intro To For Loops</h1>
+                    <div class="cover-slide">
+                        <h2 class="starting-text">Let's Learn About The Importance Of For Loops!!</h2>
+                        <img src="https://media.giphy.com/media/S5cQ2DosF6zAyFsb3O/giphy.gif" />
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="slides">
+            <div class="slide2-cover">
+                <h1 class="title-slide2">What is a for loop?</h1>
+                <div class="description">
+                    <h2>Loops are when computers and programming becomes interesting and powerful.</h2>
+                    <h2>They help you complete an action X number of times. Saving you time and making your code more 
+                        dynamic.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slides">
+            <div class="slide3-cover">
+                <h1 class="title-slide3">Life Without For Loops!!</h1>
+                <div class="first-excercise">
+                    <h2>Let's count to from 1 to 10</h2>
+                    <h2>How would we go about that?</h2>
+                </div>
+                <img class="repl" src="./counting-repl.png" />
+            </div>
+        </div>
+
+
+        <div class="slides">
+            <div class="slide4-cover">
+                <h1 class="title-slide3">For Loop Syntax</h1>
+                <div class="for-loop-desc">
+                    <h2>for(let i = 1; i<= 10; i++){</h2>
+                    <h2>}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slide5-cover">
+                <h1 class="title-slide3">The Initializer</h1>
+                <div class="for-loop-desc">
+                    <h2 class="loop-statement">let i = 1 </h2>
+                    <h2>We are making a variable called i and we are going to start it at 1.</h2>
+                    <h2>We are telling the loop where to start counting and we want to start counting at 1 so we set i to 1</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slide6-cover">
+                <h1 class="title-slide3">The Conditional</h1>
+                <div class="for-loop-desc">
+                    <h2 class="loop-statement">i <= 10</h2>
+                    <h2>This tells the loop where to end and it tells the loop to keep going until the condition is false.</h2>
+                    <h2> So until i is not equal to or less than 10</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slides">
+            <div class="slide7-cover">
+                <h1 class="title-slide3">The Incrementor</h1>
+                <div class="for-loop-desc">
+                    <h2 class="loop-statement">i++</h2>
+                    <h2>Our incrementor is what iterates the loop. So we set our initializer to zero but now we 
+                        need to keep increasing i so we can create more iterations.</h2>
+                    <h2>What i++ does is that it increases i by 1 after each iteration. So i++ = i + 1</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slide8-cover">
+                <h1 class="title-slide3">Putting It All Together!!!</h1>
+                <div class="final-thoughts">
+                    <div class="text-box">
+                            <h2 class="loop-statement">for(let i = 1; i <= 10; i++) {</h2>
+                            <h2 class="loop-statement">console.log(i);</h2>
+                            <h2 class="loop-statement">}</h2>
+                    </div>
+                    <h2 class="conclusion">We set our initializer to 1 and we have our incrementor increasing our initializer by 1 which
+                        is why we get every number after 1. We're telling our loop to iterate. Then our conditional is making
+                        sure that after every iteration that each number is either less then or equal to 10.
+                        After i = 10 our incrementor i++ increases 10 by 1 making i = 11 but our  conditional looks at i and understands that
+                        11 is not less than or equal to 10 and so the loop stops. 
+                    </h2>
+                    <div class="second-flex">
+                        <div class="underbox">
+                            <h3>Our Incrementor i++ iterations</h3>
+                            <h3>First Loop i = 1</h3> 
+                            <h3>Second Loop i = 1 + 1 = 2</h3>
+                            <h3>Third Loop i = 2 + 1 = 3</h3>   
+                            <h3>Fourth Loop i = 3 + 1 = 4</h3>
+                            <h3>...</h3>    
+                            <h3>Tenth Loop i = 9 + 1 = 10</h3>
+                            <h3>Then i = 10 + 1 = 11</h3>
+                            <h3>Our conditional i <= 10 checks to see if i</h3> 
+                            <h3>is less than or equal to 10. Since 11 is not less </h3>
+                            <h3>than or equal to 10</h3>
+                            <h3>The loop stops. </h3>
+                        </div>
+                        <img class="imagination" src="https://i.insider.com/4dfc0c29ccd1d59103020000?width=600&format=jpeg&auto=webp"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slides">
+            <div class="slide8-cover">
+                <h1 class="title-slide3">Excercise!!!</h1>
+                <h2 class="for-loop-desc">Let's create a for loop that adds up all the numbers from 1 to 15.</h2>
+                <h1 class="for-loop-desc">1 + 2 + 3......+ 15</h1>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slide8-cover">
+                <h1 class="title-slide3">Solution</h1>
+                <img class="solution" src="./sum-total.png" />
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    
+
+   
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
