@@ -42,6 +42,7 @@ h1, h3, p{
     text-align: center;
     font-size: 40px;
     font-family: 'Source Sans Pro', sans-serif;
+    color: #4d79ff;
 }
 
 .cover {
@@ -131,6 +132,15 @@ img{
     font-size: 40px;
     width: 650px;
     margin-top: 5%;
+    color: red;
+}
+.for-loop-syntax-2{
+    margin-right:auto;
+    margin-left:auto;
+    font-size: 30px;
+    width: 650px;
+    margin-top: 5%;
+    color: red;
 }
 
 .slide4-cover {
