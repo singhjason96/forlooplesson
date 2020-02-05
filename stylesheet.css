@@ -115,7 +115,7 @@ img{
 }
 
 .repl {
-    width: 700px;
+    width: 70%;
     margin: auto;
     background-color: bisque;
     height: 500px;
@@ -129,8 +129,8 @@ img{
 .for-loop-syntax{
     margin-right:auto;
     margin-left:auto;
-    font-size: 40px;
-    width: 650px;
+    font-size: 30px;
+    width: 800px;
     margin-top: 5%;
     color: red;
 }
@@ -215,6 +215,10 @@ img{
     color: red;
 }
 
+.underbox:hover{
+    font-size: 30px;
+}
+
 .solution {
     width: 100%;
 }
@@ -222,7 +226,13 @@ img{
     font-weight: bolder;
 }
 
-
+.statements {
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    width: 40%;
+    font-size: 35px;
+}
 
 
 
