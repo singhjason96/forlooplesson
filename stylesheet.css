@@ -84,11 +84,13 @@ img{
 }
 
 .description {
-    text-align: center;
+    width: 1000px;
     color: black;
     font-size: 24px;
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .slide3-cover{
@@ -114,6 +116,21 @@ img{
 .repl {
     width: 700px;
     margin: auto;
+    background-color: bisque;
+    height: 500px;
+}
+.repl:hover{
+    background-image: url("counting-repl.png");
+    background-size: cover;
+    background-color: beige;
+}
+
+.for-loop-syntax{
+    margin-right:auto;
+    margin-left:auto;
+    font-size: 40px;
+    width: 650px;
+    margin-top: 5%;
 }
 
 .slide4-cover {
@@ -221,6 +238,22 @@ img{
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
+
+  .code-box{
+      background-color:#003366;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .comments{
+      color: white;
+      font-size: 18px;
+  }
+
+  .code {
+      color:#aaff80
+  }
   
   /* Position the "next button" to the right */
   .next {
@@ -232,6 +265,7 @@ img{
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
+
 
 
 
