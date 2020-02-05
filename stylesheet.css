@@ -193,7 +193,10 @@ img{
 }
 
 .conclusion{
-    font-size: 30px;
+    font-size: 25px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left:auto;
 }
 
 .imagination {
@@ -215,7 +218,9 @@ img{
 .solution {
     width: 100%;
 }
-
+.big-loop {
+    font-weight: bolder;
+}
 
 
 
