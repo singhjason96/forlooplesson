@@ -26,6 +26,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.highlight:hover{
+    color: white;
+}
+
 h1, h3, p{
     margin-bottom: 0px;
     margin-top: 0px;
